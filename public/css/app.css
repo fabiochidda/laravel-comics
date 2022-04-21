@@ -111,6 +111,35 @@
   color: white;
 }
 
+.container {
+  background-color: #0282F9;
+}
+
+.container-lg {
+  padding: 60px 30px;
+}
+
+.merch-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.merch-container li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.merch-container li p {
+  color: white;
+}
+
+img {
+  display: block;
+  height: 40px;
+}
+
 html {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

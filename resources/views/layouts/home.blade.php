@@ -16,6 +16,7 @@
     <main>
         @include('partials.jumbotron')
         @include('partials.main')
+        @include('partials.merchandise')
     </main>
 
     <footer>
