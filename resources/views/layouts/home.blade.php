@@ -20,7 +20,7 @@
     </main>
 
     <footer>
-
+        @include('partials.footer')
     </footer>
     
 </body>
