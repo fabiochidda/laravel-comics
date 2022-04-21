@@ -1,1 +1,32 @@
-//
+@import "/resources/sass/header.scss";
+
+html {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.container {
+    width: 100%;
+}
+  
+.container-lg {
+    width: 1320px;
+    display: flex;
+    margin: 0 auto;
+}
+  
+.row {
+    display: flex;
+}
+  
+ul li, a {
+    list-style: none;
+}

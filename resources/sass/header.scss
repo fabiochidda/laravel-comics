@@ -1,0 +1,43 @@
+.container-lg{
+    min-height: 130px;
+    justify-content: space-between;
+}
+
+.header-logo {
+    align-self: center;
+}
+
+.nav-container {
+    display: flex;
+    gap: 25px;
+}
+
+.nav {
+    display: contents;
+}
+
+.nav-links {
+
+    a {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+    }
+
+    &.active {
+        a::after {
+            content: '';
+            display: block;
+            height: 5px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #0282F9;
+        }
+    }
+
+}
