@@ -14,7 +14,7 @@
     </header>
 
     <main>
-
+        @include('partials.jumbotron')
     </main>
 
     <footer>
