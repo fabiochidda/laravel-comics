@@ -49,14 +49,14 @@ $navLinks = [
 
 
 <div class="container">
-    <div class="container-lg">
+    <div class="container-lg ms_header">
         <figure class="header-logo">
             <img src="{{'img/dc-logo.png'}}" alt="">
         </figure>
         <nav class="nav-container">
             <ul class="nav">
                 @foreach ($navLinks as $el)
-                    <li>
+                    <li class="nav-links">
                         <a :href="{{ $el['href'] }}">{{ $el['text'] }}</a>
                     </li>
                 @endforeach     

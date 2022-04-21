@@ -1,6 +1,6 @@
 <section>
-    <div class="container ms_jumbo">
-        <div class="container-lg ms_jumboStuff">
+    <div class="container ms_jumboBg">
+        <div class="container-lg ms_jumboBox">
             <div class="current_series">
                 <p>CURRENT SERIES</p>
             </div>               

@@ -1,8 +1,8 @@
-.container {
+.container.ms_merchBg {
     background-color: #0282F9;
 }
 
-.container-lg {
+.ms_merch{
     padding: 60px 30px;
 }
 
@@ -20,9 +20,10 @@
             color: white;
         }
     }
+
+    img {
+        display: block;
+        height: 40px;
+    }
 }
 
-img {
-    display: block;
-    height: 40px;
-}

@@ -9,9 +9,7 @@
 @import "/resources/sass/footer.scss";
 
 html {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: Helvetica, Arial, sans-serif;
     color: #2c3e50;
 }
   
@@ -35,6 +33,10 @@ html {
     display: flex;
 }
   
-ul li, a {
+ul li {
     list-style: none;
+
+    a {
+        text-decoration: none;
+    }
 }

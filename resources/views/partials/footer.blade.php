@@ -113,10 +113,10 @@ $social = [
             <div class="list-container">
                 <div class="col">
                     <ul>
+                        <li class="list-title">
+                            <h2>DC COMICS</h2>
+                        </li>
                         @foreach ($listGeneral as $el)
-                            <li class="list-title">
-                                <h2>DC COMICS</h2>
-                            </li>
                             <li v-for="(el,i) in listGeneral" :key="i">
                                 <a href="#">{{ $el['text'] }}</a>
                             </li>
@@ -126,9 +126,11 @@ $social = [
                         <li class="list-title">
                             <h2>SHOP</h2>
                         </li>
-                        <li v-for="(el,i) in listShop" :key="i">
-                            <a href="#">{{ $el['text'] }}</a>
-                        </li>
+                        @foreach ($listShop as $el)
+                            <li v-for="(el,i) in listShop" :key="i">
+                                <a href="#">{{ $el['text'] }}</a>
+                            </li>
+                        @endforeach
                     </ul>
                 </div>
                 <div class="col">
@@ -136,9 +138,11 @@ $social = [
                         <li class="list-title">
                             <h2>DC</h2>
                         </li>
-                        <li v-for="(el,i) in listDcTerms" :key="i">
-                            <a href="#">{{ $el['text'] }}</a>
-                        </li>
+                        @foreach ($listDcTerms as $el)
+                            <li v-for="(el,i) in listDcTerms" :key="i">
+                                <a href="#">{{ $el['text'] }}</a>
+                            </li>
+                        @endforeach
                     </ul>
                 </div>
                 <div class="col">
@@ -146,9 +150,11 @@ $social = [
                         <li class="list-title">
                             <h2>SITES</h2>
                         </li>
-                        <li v-for="(el,i) in listSites" :key="i">
-                            <a href="#">{{ $el['text'] }}</a>
-                        </li>
+                        @foreach ($listSites as $el)
+                            <li v-for="(el,i) in listSites" :key="i">
+                                <a href="#">{{ $el['text'] }}</a>
+                            </li>
+                        @endforeach
                     </ul>
                 </div>
             </div>

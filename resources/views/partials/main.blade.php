@@ -1,6 +1,6 @@
 <section>
-    <div class="container">
-        <div class="container-lg">
+    <div class="container ms_main">
+        <div class="container-lg ms_mainContent">
             <div class="comics-container">
                 @foreach ($comics as $el)
                     <div class="comic-card">

@@ -26,8 +26,8 @@
 @endphp
 
 <section>
-    <div class="container">
-        <div class="container-lg">
+    <div class="container ms_merchBg">
+        <div class="container-lg ms_merch">
             <ul class="merch-container">
                 @foreach ($merch as $el)
                     <li>
