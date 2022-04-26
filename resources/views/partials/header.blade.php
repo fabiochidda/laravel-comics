@@ -57,7 +57,7 @@ $navLinks = [
             <ul class="nav">
                 @foreach ($navLinks as $el)
                     <li class="nav-links">
-                        <a :href="{{ $el['href'] }}">{{ $el['text'] }}</a>
+                        <a href="{{ $el['href'] }}">{{ $el['text'] }}</a>
                     </li>
                 @endforeach     
             </ul>

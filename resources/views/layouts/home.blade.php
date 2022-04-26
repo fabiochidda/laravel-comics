@@ -15,7 +15,7 @@
 
     <main>
         @include('partials.jumbotron')
-        @include('partials.main')
+        @yield('mainContent')
         @include('partials.merchandise')
     </main>
 

@@ -1,3 +1,7 @@
+@extends('layouts.home')
+
+@section('mainContent')
+
 <section>
     <div class="container ms_main">
         <div class="container-lg ms_mainContent">
@@ -20,3 +24,5 @@
         </div>
     </div>
 </section>
+    
+@endsection
