@@ -5,13 +5,16 @@
 <div class="container-lg">
     <div class="product-container">
         <div class="title">
+            <figure>
+                <img src="{{$product['thumb']}}" alt="">
+            </figure>
             <h2>{{$product['title']}}</h2>
         </div>
         <div class="info">
-            <p>{{$product['description']}}</p>
-            <p>{{$product['series']}}</p>
-            <p>{{$product['sale_date']}}</p>
-            <p>{{$product['price']}}</p>
+            <p>Descrizione: {{$product['description']}}</p>
+            <p>Serie: {{$product['series']}}</p>
+            <p>Data pubblicazione{{$product['sale_date']}}</p>
+            <p>Prezzo: {{$product['price']}}</p>
         </div>
     </div>
 </div>

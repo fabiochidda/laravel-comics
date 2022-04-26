@@ -212,6 +212,18 @@
   gap: 15px;
 }
 
+.product-container {
+  padding: 20px 0;
+}
+
+.product-container p {
+  padding: 10px;
+}
+
+figure {
+  text-align: center;
+}
+
 html {
   font-family: Helvetica, Arial, sans-serif;
   color: #2c3e50;
