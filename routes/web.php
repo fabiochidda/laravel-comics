@@ -19,3 +19,15 @@ Route::get('/', function () {
 
     return view('partials.main', ["comics" => $comics]);
 });
+
+Route::get('/comics/{id}', function($id) {
+
+    $comics = config('comics');
+
+    abort_if( !isset($comics[$id]), 404);
+
+    $product = $comics[$id];
+
+    return view('partials.product', ['product' => $product]);
+
+})->where('id','[0-9]+')->name('comics');
